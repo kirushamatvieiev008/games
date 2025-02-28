@@ -4,85 +4,248 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h3 class="logo"></h3>
-      <ul>
-        <li>Інтерактив</li>
-        <li>Наша команда</li>
-        <li>Контакти</li>
-      </ul>
-      <div class="sun_and_moon_back">
-        <span class="sun_and_moon"></span>
+      <div class="for_gap">
+        <img class="logo_img" src="logo.svg" alt="#" />
+        <ul class="menu">
+          <li class="interractive">Інтерактив <img src="line.svg" alt="#" /></li>
+          <li class="our_team">Наша команда</li>
+          <li class="contacts">Контакти</li>
+        </ul>
+        <div class="sun_and_moon_back">
+          <span class="sun_and_moon"
+            ><img class="sun_img" src="sun.png" alt="#"
+          /></span>
+        </div>
+        <div class="welcome">Вітаємо, User!</div>
       </div>
-      <div>Вітаємо, User!</div>
     </header>
-    <div class="container">
-      <h5>Популярні інетрактивні ігри</h5>
-      <div class="line"></div>
 
-      <section class="game1">
-        <h6>Перевір в який рік ти народився</h6>
-        <ul>
-          <li>
-            <form action="#">
-              <input type="text" />
-              <button type="submit"></button>
-            </form>
-          </li>
-          <li>
-            <div>Ви народилися у високосний рік!</div>
-          </li>
-        </ul>
-      </section>
+    <div class="background">
+      <div class="container">
+        <main>
+          <h5 class="popular_interactive">Популярні інетрактивні ігри</h5>
+          <div class="line"></div>
 
-      <div class="line"></div>
+          <section class="game1">
+            <h6 class="check_year">Перевір в який рік ти народився</h6>
+            <ul>
+              <li>
+                <form action="#">
+                  <input type="text" />
+                  <button type="submit"></button>
+                </form>
+              </li>
+              <li>
+                <div>Ви народилися у високосний рік!</div>
+              </li>
+            </ul>
+          </section>
 
-      <section class="game2">
-        <h6>Вгадай число, яке загадав комп’ютер</h6>
-        <ul>
-          <li>
-            <form action="#">
-              <input type="text" />
-              <button type="submit"></button>
-            </form>
-          </li>
-          <li>
-            <div>Вітаю, ви вгадали число! (number)</div>
-          </li>
-        </ul>
-      </section>
+          <div class="line"></div>
 
-      <div class="line"></div>
+          <section class="game2">
+            <h6>Вгадай число, яке загадав комп’ютер</h6>
+            <ul>
+              <li>
+                <form action="#">
+                  <input type="text" />
+                  <button type="submit"></button>
+                </form>
+              </li>
+              <li>
+                <div>Вітаю, ви вгадали число! (number)</div>
+              </li>
+            </ul>
+          </section>
 
-      <section class="game3">
-        <h6>Камінь - ножиці - папір</h6>
-        <ul>
-            <li>
+          <div class="line"></div>
+
+          <section class="game3">
+            <h6>Камінь - ножиці - папір</h6>
+            <ul>
+              <li>
                 <ul class="photos_game_3">
-                    <li class="rock"></li>
-                    <li class="cutter"></li>
-                    <li class="paper"></li>
-                  </ul>
-            </li>
-
-            <li>
-                <ul>
-                    <li>Рахунок</li>
-                    <li>Комп’ютер - 0</li>
-                    <li>Ви - 0</li>
+                  <li class="rock"></li>
+                  <li class="cutter"></li>
+                  <li class="paper"></li>
                 </ul>
+              </li>
+
+              <li>
+                <ul>
+                  <li>Рахунок</li>
+                  <li>Комп’ютер - 0</li>
+                  <li>Ви - 0</li>
+                </ul>
+              </li>
+            </ul>
+            <div>Ви виграли раунд!</div>
+            <button class="computer_choise">Варіант комп’ютера</button>
+          </section>
+
+          <div class="line"></div>
+
+          <section class="game4">
+            <h6>Калькулятор</h6>
+            <ul>
+              <li>
+                <form action="#">
+                  <input type="text" placeholder="Введіть число" />
+                </form>
+              </li>
+              <li>
+                <ul>
+                  <li><button>+</button></li>
+                  <li><button>*</button></li>
+                  <li><button>-</button></li>
+                  <li><button>/</button></li>
+                </ul>
+              </li>
+              <li>
+                <form action="#">
+                  <input type="text" placeholder="Введіть число" />
+                </form>
+              </li>
+              <li>
+                <button>=</button>
+              </li>
+            </ul>
+          </section>
+
+          <div class="line"></div>
+
+          <section class="game5">
+            <h6>Калькулятор часу</h6>
+
+            <form action="#">
+              <input type="text" placeholder="Введіть число" />
+            </form>
+            <div class="answer"></div>
+          </section>
+
+          <div class="line"></div>
+
+          <section>
+            <h6>Google динозавр</h6>
+            <img src="" alt="" />
+          </section>
+
+          <div class="line"></div>
+
+          <section>
+            <h6>Футбол</h6>
+            <img src="" alt="" />
+          </section>
+
+          <div class="line"></div>
+
+          <section>
+            <h6>Введіть 3 числа</h6>
+
+            <ul>
+              <li>
+                <form action="#">
+                  <input type="text" placeholder="Введіть число" />
+                </form>
+              </li>
+              <li>
+                <form action="#">
+                  <input type="text" placeholder="Введіть число" />
+                </form>
+              </li>
+              <li>
+                <form action="#">
+                  <input type="text" placeholder="Введіть число" />
+                </form>
+              </li>
+            </ul>
+            <div>Найбільше число, яке ви ввели - (число)</div>
+          </section>
+
+          <div class="line"></div>
+
+          <section class="info_team">
+            <h6>Наша команда</h6>
+            <div>
+              <img src="" alt="" />
+              <span>Ім’я студента</span>
+              <p>Інформація про роботу, яку він/вона виконав/ла</p>
+            </div>
+          </section>
+
+          <div class="line"></div>
+
+          <section>
+            <h6>Обери вченого/их</h6>
+            <ul>
+              <li><button>Які вчені народилися в 19 ст.</button></li>
+              <li><button>Знайти рік народження Albert Einshtein</button></li>
+              <li><button>Відсортувати вчених за алфавітом</button></li>
+              <li>
+                <button>
+                  Знайти вчених, прізвища яких починаються на на літеру “С”
+                </button>
+              </li>
+              <li>
+                <button>Відсортувати вчених за кількістю прожитих років</button>
+              </li>
+              <li>
+                <button>
+                  Видалити всіх вчених, ім’я яких починається на “А”
+                </button>
+              </li>
+              <li>
+                <button>Знайти вченого, який народився найпізніше</button>
+              </li>
+              <li>
+                <button>
+                  Знайти вченого, який прожив найдовше і вченого, який прожив
+                  найменше
+                </button>
+              </li>
+            </ul>
+            <button>
+              Знайти вчених, в яких співпадають перші літери імені і прізвища
+            </button>
+          </section>
+        </main>
+        <footer>
+          <ul>
+            <li><img src="" alt="" /></li>
+            <li>
+              <ul>
+                <li>Тел: +38 (123) 456 78 90</li>
+                <li>E-Mail: codingmagic@gmail.com</li>
+                <li>Facebook: CodingMagic</li>
+                <li>Twitter: CodingMagic</li>
+                <li>Instagram: CodingMagic</li>
+              </ul>
             </li>
-        </ul>
-        <div>Ви виграли раунд!</div>
-        <button class="computer_choise">Варіант комп’ютера</button>
-      </section>
-
-      <div class="line"></div>
-
-      
+            <li>
+              <div>
+                <form action="#">
+                  <input type="text" placeholder="Ваша ел. адреса..." />
+                  <button>Підписатись</button>
+                </form>
+                <div>
+                  *Підписавшись, Ви зможете ортимувати інформаццію про новинки
+                  на сайті
+                </div>
+              </div>
+            </li>
+          </ul>
+        </footer>
+      </div>
     </div>
 
     <script href="main.js"></script>

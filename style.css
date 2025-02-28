@@ -1,5 +1,149 @@
 .container {
-    width: 1090px;
+    width: 1484px;
+    outline: solid 1px red;
     margin: 0 auto;
-    
+    background-color: white;
+
 }
+
+.background {
+    background-image: url(imgs/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    /* display: flex; */
+    /* margin:  0 auto; */
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 80px;
+}
+
+.logo_img {
+    width: 93px;
+    height: 38.15px;
+    padding-right: 110.25px;
+}
+
+body {
+    /* background-image: url(imgs/back.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    margin: 0;
+}
+
+.for_gap {
+    width: 1484px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    gap: 69.3px;
+    padding-right: 673px;
+}
+
+.sun_and_moon {
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    background-color: white;
+    outline: solid 1px black;
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* padding: 0; */
+
+}
+
+.sun_img {
+    margin: 0 auto;
+    /* margin-left: -0.01px; */
+}
+
+.sun_and_moon_back {
+    /* margin-top: -px; */
+    background-color: #7A7A7A;
+    border-radius: 11px;
+    width: 40px;
+    height: 22px;
+    margin-right: 69.3px;
+}
+
+.interractive {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.our_team {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.contacts {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.welcome {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.popular_interactive {
+    margin: 0;
+}
+
+.popular_interactive {
+    font-size: 24px;
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 49px;
+    padding-bottom: 49px;
+}
+
+.line {
+    width: 730px;
+    margin: 0 auto;
+    height: 1px;
+    background-color: black;
+}
+
+.check_year {
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ */
