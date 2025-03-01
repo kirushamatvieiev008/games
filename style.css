@@ -140,6 +140,113 @@ ul {
     font-style: normal;
 }
 
+.inp_one_in_4 {
+    background-color: #D7D7D7;
+    border-radius: 20px;
+    border: none;
+    width: 215px;
+    height: 35px;
+    box-shadow: 3px 3px 0 #0000003f;
+    padding-left: 10px;
+}
+
+.inp_one_in_4:focus {
+    outline: none;
+    border: none;
+}
+
+.inp_one_in_4::placeholder {
+    color: #7E7E7E;
+    font-size: 12px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* padding-left: 10px; */
+    padding-top: 10px;
+}
+
+.lupa_btn {
+    background-color: black;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 37px;
+    width: 35px;
+    cursor: pointer;
+    margin-left: -35px;
+    
+}
+
+.form_vysokosnyi {
+    display: flex;
+    align-items: center;
+    padding-left: 354px;
+}
+
+.ul_vysokosnyi {
+    display: flex;
+    align-items: center;
+    gap: 343px;
+    padding-bottom: 36px;
+}
+
+.you_was_born {
+    color: #039900;
+    font-size: 12px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ul_game_with_pc {
+    display: flex;
+    align-items: center;
+    gap: 387px;
+    padding-bottom: 36px;
+}
+
+.form_game2 {
+    display: flex;
+    align-items: center;
+    padding-left: 354px;
+}
+
+.inp_guess_num {
+    background-color: #D7D7D7;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    height: 35px;
+    box-shadow: 3px 3px 0 #0000003f;
+    padding-left: 10px;
+
+}
+
+.inp_guess_num:focus {
+    outline: none;
+    border: none;
+}
+
+.inp_guess_num::placeholder {
+    font-size: 12px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* padding-left: 10px; */
+    padding-top: 10px;
+    color: #7E7E7E;
+}
+
+.you_guessed_num {
+    color: #039900;
+    font-size: 12px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
 /* 
 .montserrat-alternates-regular {
   font-family: "Montserrat Alternates", sans-serif;
