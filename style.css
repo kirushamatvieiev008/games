@@ -7,7 +7,7 @@
 }
 
 .background {
-    background-image: url(imgs/back.png);
+    background-image: url(imgs/png/back.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -174,7 +174,7 @@ ul {
     width: 35px;
     cursor: pointer;
     margin-left: -35px;
-    
+
 }
 
 .form_vysokosnyi {
@@ -245,7 +245,92 @@ ul {
     font-style: normal;
 }
 
+.photos_game_3 {
+    display: flex;
+    gap: 52px;
+    margin: 0;
+}
 
+.rock_img {
+    width: 60px;
+}
+
+.scissors_img {
+    width: 60px;
+}
+
+.papers_img {
+    width: 60px;
+
+}
+
+.for_flex {
+    padding-left: 278px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.rahunok {
+    display: flex;
+    flex-direction: column;
+    padding-left: 181.5px;
+    margin: 0;
+    justify-content: center;
+}
+
+.captcher {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.pc {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.you {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.you_won {
+    color: #039900;
+    font-size: 12px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.computer_choise {
+    width: 182px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000;
+    font-size: 12px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 36px;
+    cursor: pointer;
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
 
 /* 
 .montserrat-alternates-regular {

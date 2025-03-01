@@ -15,15 +15,17 @@
   <body>
     <header>
       <div class="for_gap">
-        <img class="logo_img" src="logo.svg" alt="#" />
+        <img class="logo_img" src="imgs/svg/logo.svg" alt="#" />
         <ul class="menu">
-          <li class="interractive">Інтерактив <img src="line.svg" alt="#" /></li>
+          <li class="interractive">
+            Інтерактив <img src="imgs/svg/line.svg" alt="#" />
+          </li>
           <li class="our_team">Наша команда</li>
           <li class="contacts">Контакти</li>
         </ul>
         <div class="sun_and_moon_back">
           <span class="sun_and_moon"
-            ><img class="sun_img" src="sun.png" alt="#"
+            ><img class="sun_img" src="imgs/png/sun.png" alt="#"
           /></span>
         </div>
         <div class="welcome">Вітаємо, User!</div>
@@ -41,8 +43,14 @@
             <ul class="ul_vysokosnyi">
               <li>
                 <form class="form_vysokosnyi" action="#">
-                  <input placeholder="Введіть рік народження" class="inp_one_in_4" type="text" />
-                  <button class="lupa_btn" type="submit"><img class="lupa" src="lupa.svg" alt="#"></button>
+                  <input
+                    placeholder="Введіть рік народження"
+                    class="inp_one_in_4"
+                    type="text"
+                  />
+                  <button class="lupa_btn" type="submit">
+                    <img class="lupa" src="imgs/svg/lupa.svg" alt="#" />
+                  </button>
                 </form>
               </li>
               <li>
@@ -58,12 +66,20 @@
             <ul class="ul_game_with_pc">
               <li>
                 <form class="form_game2" action="#">
-                  <input class="inp_guess_num" placeholder="Введіть число" type="text" />
-                  <button class="lupa_btn" type="submit"><img class="lupa" src="lupa.svg" alt="#"></button>
+                  <input
+                    class="inp_guess_num"
+                    placeholder="Введіть число"
+                    type="text"
+                  />
+                  <button class="lupa_btn" type="submit">
+                    <img class="lupa" src="imgs/svg/lupa.svg" alt="#" />
+                  </button>
                 </form>
               </li>
               <li>
-                <div class="you_guessed_num">Вітаю, ви вгадали число! (number)</div>
+                <div class="you_guessed_num">
+                  Вітаю, ви вгадали число! (number)
+                </div>
               </li>
             </ul>
           </section>
@@ -72,24 +88,24 @@
 
           <section class="game3">
             <h6 class="check_year">Камінь - ножиці - папір</h6>
-            <ul>
-              <li>
-                <ul class="photos_game_3">
-                  <li class="rock"></li>
-                  <li class="cutter"></li>
-                  <li class="paper"></li>
-                </ul>
-              </li>
 
-              <li>
-                <ul>
-                  <li>Рахунок</li>
-                  <li>Комп’ютер - 0</li>
-                  <li>Ви - 0</li>
-                </ul>
+            <div class="for_flex">
+            <ul class="photos_game_3">
+              <li class="rock"><img class="rock_img" src="imgs/png/rock.png" alt="#" /></li>
+              <li class="cutter">
+                <img class="scissors_img" src="imgs/png/scissors.png" alt="#" />
               </li>
+              <li class="paper"><img class="papers_img" src="imgs/png/papers.png" alt="#" /></li>
             </ul>
-            <div>Ви виграли раунд!</div>
+
+            <ul class="rahunok">
+              <li class="captcher">Рахунок</li>
+              <li class="pc">Комп’ютер - 0</li>
+              <li class="you">Ви - 0</li>
+            </ul>
+            </div>
+
+            <div class="you_won">Ви виграли раунд!</div>
             <button class="computer_choise">Варіант комп’ютера</button>
           </section>
 
