@@ -478,10 +478,89 @@ ul {
     width: 980px;
     /* margin: 0 auto; */
     /* text-align: center; */
-    margin-left: 50%;
-    transform: translateX(-50%);
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
 }
 
+.football_peach {
+    width: 980px;
+
+}
+
+.ball {
+    width: 68px;
+    /* margin-top: -00px; */
+}
+
+.football_div {
+    text-align: center;
+}
+
+.ball_div {
+    margin-top: -188px;
+    margin-bottom: 188px;
+}
+
+.margin {
+    text-align: center;
+}
+
+.three_numbers {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.the_biggest_num {
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    padding: 36px 0;
+}
+
+.kiril_foto {
+    width: 150px;
+    /* padding-bottom: 20px; */
+    border-radius: 20px;
+    /* border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; */
+}
+
+.info_student {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    margin: 0;
+}
+
+.name {
+    padding-top: 20px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.info_text {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 63px;
+    margin: 0;
+}
+
+.fake_img {
+    width: 100px;
+    height: 100px;
+}
 
 /* 
 .montserrat-alternates-regular {
