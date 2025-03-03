@@ -558,9 +558,28 @@ div {
 }
 
 .fake_img {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
 }
+
+.ul_with_scientists {
+    display: flex;
+    /* text-align: center; */
+    width: 785px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 81px;
+
+}
+
+.sort_scientists {
+    
+}
+
+
 
 /* 
 .montserrat-alternates-regular {
