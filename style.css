@@ -576,7 +576,116 @@ div {
 }
 
 .sort_scientists {
-    
+    display: flex;
+    flex-wrap: wrap;
+    width: 857px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 36px;
+}
+
+.who_was_born {
+    background-color: #000;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 227px;
+    height: 35px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.find_year {
+    background-color: #000;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 298px;
+    height: 35px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sort_scientists_by_alfabet {
+    background-color: #000;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 282px;
+    height: 35px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.begins_on_s {
+    background-color: #000;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 441px;
+    height: 35px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lived_years {
+    background-color: #000;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 380px;
+    height: 35px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.delete_all_scientosts {
+    background-color: #000;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 375px;
+    height: 35px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.the_newest {
+    background-color: #000;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 329px;
+    height: 35px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.who_lived_longer_ald_lover {
+    background-color: #000;
+    border-radius: 20px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    width: 368px;
+    height: 35px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
