@@ -576,13 +576,30 @@ div {
 }
 
 .sort_scientists {
+    padding-left: 147px;
     display: flex;
-    flex-wrap: wrap;
-    width: 857px;
-    margin: 0 auto;
-    justify-content: center;
     gap: 36px;
+    justify-content: center;
 }
+
+.buttons_column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+    outline: solid blue 1px;
+    
+}
+
+.buttons_column2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    outline: solid blue 1px;
+}
+
+
 
 .who_was_born {
     background-color: #000;
