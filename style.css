@@ -1,5 +1,5 @@
 .container {
-    width: 1484px;
+    width: 1090px;
     outline: solid 1px red;
     margin: 0 auto;
     background-color: white;
@@ -25,8 +25,8 @@ header {
 
 .logo_img {
     width: 93px;
-    height: 38.15px;
-    padding-right: 110.25px;
+    height: 38.145px;
+    padding-right: 81px;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
 }
 
 .for_gap {
-    width: 1484px;
+    width: 1090px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -51,8 +51,8 @@ ul {
 
 .menu {
     display: flex;
-    gap: 69.3px;
-    padding-right: 673px;
+    gap: 50px;
+    padding-right: 361px;
 }
 
 .sun_and_moon {
@@ -81,7 +81,7 @@ ul {
     border-radius: 11px;
     width: 40px;
     height: 22px;
-    margin-right: 69.3px;
+    margin-right: 51px;
 }
 
 .interractive {
@@ -127,7 +127,7 @@ ul {
 }
 
 .line {
-    width: 730px;
+    width: 536px;
     margin: 0 auto;
     height: 1px;
     background-color: black;
@@ -181,13 +181,14 @@ ul {
 .form_vysokosnyi {
     display: flex;
     align-items: center;
-    padding-left: 354px;
+    /* padding-left: 257px; */
 }
 
 .ul_vysokosnyi {
     display: flex;
     align-items: center;
-    gap: 343px;
+    gap: 149px;
+    justify-content: center;
     padding-bottom: 36px;
 }
 
@@ -202,14 +203,15 @@ ul {
 .ul_game_with_pc {
     display: flex;
     align-items: center;
-    gap: 387px;
+    justify-content: center;
+    gap: 202px;
     padding-bottom: 36px;
 }
 
 .form_game2 {
     display: flex;
     align-items: center;
-    padding-left: 354px;
+    /* padding-left: 354px; */
 }
 
 .inp_guess_num {
@@ -266,16 +268,17 @@ ul {
 }
 
 .for_flex {
-    padding-left: 278px;
+    /* padding-left: 278px; */
     display: flex;
     justify-content: center;
+    padding-left: 197px;
     margin: 0;
 }
 
 .rahunok {
     display: flex;
     flex-direction: column;
-    padding-left: 181.5px;
+    padding-left: 104px;
     margin: 0;
     justify-content: center;
 }
@@ -475,7 +478,7 @@ ul {
 
 .dinisour_timeless {
     padding-top: 36px;
-    width: 980px;
+    width: 720px;
     /* margin: 0 auto; */
     /* text-align: center; */
     /* margin-left: 50%;
@@ -483,7 +486,7 @@ ul {
 }
 
 .football_peach {
-    width: 980px;
+    width: 720px;
 
 }
 
@@ -508,7 +511,7 @@ ul {
 .three_numbers {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    gap: 38px;
 }
 
 .the_biggest_num {
@@ -558,8 +561,8 @@ div {
 }
 
 .fake_img {
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     background-color: #D9D9D9;
     border-radius: 20px;
 }
@@ -567,16 +570,19 @@ div {
 .ul_with_scientists {
     display: flex;
     /* text-align: center; */
-    width: 785px;
+    width: 577px;
     margin: 0 auto;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 81px;
+    /* gap: 80px; */
+    row-gap: 36px;
+    column-gap: 59px;
+    padding-bottom: 36px;
 
 }
 
 .sort_scientists {
-    padding-left: 147px;
+    padding-left: 61px;
     display: flex;
     gap: 36px;
     justify-content: center;
@@ -588,7 +594,7 @@ div {
     align-items: end;
     gap: 20px;
     outline: solid blue 1px;
-    
+
 }
 
 .buttons_column2 {
@@ -703,7 +709,118 @@ div {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-align: left;
+    padding-left: 20px;
 }
+
+.the_same_first_letters {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    color: white;
+    border-radius: 20px;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.logo_footer {
+    width: 165px;
+    height: 70px;
+    padding-right: 185px;
+}
+
+.footer_ul {
+    display: flex;
+    width: 1090px;
+    margin: 0 auto;
+    padding: 75px 0;
+    align-items: center;
+}
+
+footer {
+    background-color: #FFFFFF;
+}
+
+.phone {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.num {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+.contacts_footer {
+    line-height: 20.4px;
+    /* padding-right: 187px; */
+}
+
+.li2_footer {
+    padding-right: 187px;
+}
+
+.subscribe_info {
+    color: #000;
+    font-family: "Montserrat Alternates";
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 18px;
+}
+
+.gmail_footer {
+    display: inline-flex;
+    width: 194px;
+    padding: 10px 0 10px 10px;
+    align-items: flex-start;
+
+    border-radius: 20px;
+    background: #D7D7D7D7;
+    border: none;
+}
+
+.gmail_footer:focus {
+    outline: none;
+}
+
+.subscribe_button {
+    display: inline-flex;
+    
+    align-items: flex-start;
+    
+    border-radius: 20px;
+    background: #000;
+    border: none;
+    /* color: white; */
+    margin-left: 31px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+
+    color: #FFF;
+
+    /* font-family: "Montserrat Alternates";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; */
+
+    /* height: 35px; */
+    padding: 10px 0 10px 10px;
+    width: 107px;
+}
+
 
 
 
