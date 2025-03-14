@@ -795,9 +795,9 @@ footer {
 
 .subscribe_button {
     display: inline-flex;
-    
+
     align-items: flex-start;
-    
+
     border-radius: 20px;
     background: #000;
     border: none;
@@ -821,6 +821,144 @@ footer {
     width: 107px;
 }
 
+
+
+.modal_body {
+    width: 576px;
+    height: 316px;
+    border-radius: 20px;
+    background: #FFF;
+    outline: solid red 1px;
+    /* margin: 0 auto; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.knife {
+    position: absolute;
+    top: 154px;
+    left: 41px;
+}
+
+.playstation {
+    position: absolute;
+    top: 154px;
+    right: 41px;
+}
+
+.puzzle {
+    position: absolute;
+    top: 230px;
+    left: 85px;
+}
+
+.tic_tac {
+    position: absolute;
+    top: 230px;
+    right: 85px;
+}
+
+.hello {
+    color: #000;
+    text-align: center;
+
+    font-size: 12px;
+    line-height: normal;
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 46px;
+    margin: 0;
+    padding-bottom: 42px;
+}
+
+.close {
+    background-color: rgba(0, 0, 128, 0);
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #000;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.enter_name {
+    color: #000;
+
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    /* margin: 0 auto; */
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 18px;
+}
+
+.enter_name_inp {
+    display: inline-flex;
+    /* padding: 10px 90px 10px 10px; */
+    padding: 10px 0 10px 10px;
+    width: 169px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #D7D7D7;
+    border: none;
+    outline: none;
+    /* width: 169px; */
+}
+
+.enter_name_inp::placeholder {
+    color: #7E7E7E;
+    /* width: 169px; */
+    font-family: "Montserrat Alternates";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.enter_name_inp:focus {
+    outline: none;
+}
+
+.form_enter_name_inp {
+    /* width: 500px; */
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.save {
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #000;
+
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
 
 
 
