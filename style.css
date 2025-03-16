@@ -821,8 +821,6 @@ footer {
     width: 107px;
 }
 
-
-
 .modal_body {
     width: 576px;
     height: 316px;
@@ -834,6 +832,36 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.err {
+    position: absolute;
+    top: 158px;
+    color: red;
+    font-size: 10px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: none;
+}
+
+.err.show {
+    display: block;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0000004f;
+    backdrop-filter: blur(3px);
 }
 
 .knife {
@@ -905,7 +933,7 @@ footer {
     font-size: 12px;
     font-weight: 400;
     line-height: normal;
-    padding-bottom: 18px;
+    margin-bottom: 18px;
 }
 
 .enter_name_inp {
@@ -958,6 +986,55 @@ footer {
     color: #FFF;
     border: none;
     cursor: pointer;
+}
+
+.modal2 {
+    width: 463px;
+    height: 245px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    outline: solid red 1px;
+}
+
+
+.svgs_modal2 {
+    position: absolute;
+}
+
+.knife2 {
+    top: 69px;
+    left: 43px;
+}
+
+.playstation2 {
+    top: 69px;
+    right: 42px;
+}
+
+.puzzle2 {
+    top: 145px;
+    left: 87px;
+}
+
+.tic_tac2 {
+    top: 145px;
+    right: 86px;
+}
+
+.thanks {
+    color: #000;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 83px;
+    left: 138px;
 }
 
 
