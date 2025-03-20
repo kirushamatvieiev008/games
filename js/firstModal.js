@@ -4,6 +4,7 @@ const nameInp = document.querySelector(`.enter_name_inp`);
 const formModal1 = document.querySelector(`.form_enter_name_inp`);
 const user = document.querySelector(`.userlet`);
 const modalError = document.querySelector(`.err`);
+const leapForm = document.querySelector(`.form_vysokosnyi`);
 
 
 // console.log(close);
