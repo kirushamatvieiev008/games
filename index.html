@@ -49,7 +49,8 @@
             <ul class="ul_vysokosnyi">
               <li>
                 <form class="form_vysokosnyi" action="#">
-                  <input name="leap"
+                  <input
+                    name="leap"
                     placeholder="Введіть рік народження"
                     class="inp_one_in_4"
                     type="number"
@@ -389,14 +390,15 @@
           </li>
           <li>
             <div>
-              <form action="#">
-                <input
+              <form class="footerForm" action="#">
+                <input name="inpFooter"
                   class="gmail_footer"
                   type="text"
                   placeholder="Ваша ел. адреса..."
                 />
                 <button class="subscribe_button">Підписатись</button>
               </form>
+              <div class="errorFooter"></div>
               <div class="subscribe_info">
                 *Підписавшись, Ви зможете ортимувати інформаццію про новинки на
                 сайті
@@ -407,7 +409,7 @@
       </footer>
     </div>
 
-    <div class="backdrop">
+    <!-- <div class="backdrop">
       <div class="modal_body">
         <img class="knife" src="imgs/svg/knife.svg" alt="#" />
         <img class="playstation" src="imgs/svg/playstation.svg" alt="" />
@@ -434,18 +436,28 @@
           <button class="save">Зберегти</button>
         </form>
       </div>
-    </div>
-
-    <!-- <div class="modal2">
-      <img class="knife2 svgs_modal2" src="imgs/svg/knife.svg" alt="#" />
-      <img class="playstation2 svgs_modal2" src="imgs/svg/playstation.svg" alt="#" />
-      <img class="puzzle2 svgs_modal2" src="imgs/svg/puzzle.svg" alt="#" />
-      <img class="tic_tac2 svgs_modal2" src="imgs/svg/tic_tac.svg" alt="#" />
-      <span class="thanks">Дякую за підписку!</span>
     </div> -->
 
-    <script type="module" src="./js/firstModal.js"></script>
+    <div class="backdrop hidden">
+      <div class="modal2">
+        <button type="button" class="close">
+          <img src="imgs/svg/close_modal.svg" alt="#" />
+        </button>
+        <img class="knife2 svgs_modal2" src="imgs/svg/knife.svg" alt="#" />
+        <img
+          class="playstation2 svgs_modal2"
+          src="imgs/svg/playstation.svg"
+          alt="#"
+        />
+        <img class="puzzle2 svgs_modal2" src="imgs/svg/puzzle.svg" alt="#" />
+        <img class="tic_tac2 svgs_modal2" src="imgs/svg/tic_tac.svg" alt="#" />
+        <span class="thanks">Дякую за підписку!</span>
+      </div>
+    </div>
+
+    <!-- <script type="module" src="./js/firstModal.js"></script> -->
     <script type="module" src="./js/leapYear.js"></script>
+    <script type="module" src="./js/modal2.js"></script>
 
     <script type="module" src="./main.js"></script>
   </body>

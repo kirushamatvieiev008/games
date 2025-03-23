@@ -997,6 +997,7 @@ footer {
     top: 50%;
     transform: translate(-50%, -50%);
     outline: solid red 1px;
+    background-color: #FFF;
 }
 
 
@@ -1037,7 +1038,9 @@ footer {
     left: 138px;
 }
 
-
+.errorFooter {
+    color: red;
+}
 
 /* 
 .montserrat-alternates-regular {
