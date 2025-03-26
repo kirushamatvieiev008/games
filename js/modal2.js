@@ -20,7 +20,7 @@ footerForm.addEventListener(`submit`, (e) => {
     } else {
         errorFooter.textContent = `Введіть усе правильно!`;
     }
-        
+    e.target.elements.inpFooter.value = ``;
 
 })
 

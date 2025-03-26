@@ -240,8 +240,10 @@ ul {
     color: #7E7E7E;
 }
 
+
+
 .you_guessed_num {
-    color: #039900;
+    color: rgba(0, 0, 0, 0.719);
     font-size: 12px;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
@@ -252,6 +254,13 @@ ul {
     display: flex;
     gap: 52px;
     margin: 0;
+}
+
+.rock_btn {
+    background-color: rgba(255, 222, 173, 0);
+    border: none;
+    cursor: pointer;
+    /* border-radius: 20px; */
 }
 
 .rock_img {
@@ -298,6 +307,13 @@ ul {
 }
 
 .you {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.draw {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
