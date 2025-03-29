@@ -187,9 +187,11 @@ ul {
 .ul_vysokosnyi {
     display: flex;
     align-items: center;
-    gap: 149px;
-    justify-content: center;
+    /* gap: 149px; */
+    justify-content: space-between;
+    max-width: 580px;
     padding-bottom: 36px;
+    margin: 0  auto;
 }
 
 .you_was_born {
@@ -203,9 +205,11 @@ ul {
 .ul_game_with_pc {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 202px;
+    justify-content: space-between;
+    /* gap: 202px; */
     padding-bottom: 36px;
+    max-width: 580px;
+    margin:  0 auto;
 }
 
 .form_game2 {
@@ -276,6 +280,8 @@ ul {
 
 }
 
+
+
 .for_flex {
     /* padding-left: 278px; */
     display: flex;
@@ -290,6 +296,26 @@ ul {
     padding-left: 104px;
     margin: 0;
     justify-content: center;
+}
+
+.choise {
+    width: 80px;
+    /* text-align: center; */
+    margin: 0 auto;
+    display: none;
+    padding-bottom: 36px;
+}
+
+.rockpc {
+    display: block;
+}
+
+.paperpc {
+    display: block;
+}
+
+.scissorspc {
+    display: block;
 }
 
 .captcher {
