@@ -8,7 +8,7 @@ const pcChoise = document.querySelector(`.computer_choise`);
 // const choise = document.querySelector(`.choise`);
 const imgsPc = document.querySelectorAll(`.choise`);
 const divForImgs = document.querySelector(`.for_imgsPc`);
-// console.log(imgsPc[1]);
+console.log(imgsPc[1]);
 
 
 let y;
@@ -16,6 +16,19 @@ let yourScore = 0;
 let cpScore = 0;
 let drawScore = 0;
 // let r;
+
+
+
+
+
+function getValueFromUser (e) {
+    
+}
+
+let qwerty1 = [];
+let qwerty2 = [];
+let qwerty3 = [];
+
 
 
 rockLi.addEventListener(`click`, (e) => {
@@ -139,24 +152,48 @@ paper.addEventListener(`click`, (e) => {
 })
 
 
+
+
 pcChoise.addEventListener(`click`, (e) => {
     // console.log(1);
+
+    const randomNumber = Math.round(Math.random() * (2 - 0) + 0);
+    const randomChoise = imgsPc[randomNumber];
+    // console.log(randomChoise);
+    randomChoise.style.display = `block`;
+    const randomChoiseString = randomChoise.outerHTML;
+    // console.log(randomChoiseString);
     
+    divForImgs.innerHTML = randomChoiseString;
     
-    for (let i = 0; i < 1000; i += 1) {
-        let r = Math.round(Math.random() * 10);
-        let imgToInsert = imgsPc[r];
+
     
-        if (r > 2) {
-            continue
-        } else {
-            console.log(imgToInsert);
+    // for (let i = 0; i < 1000; i += 1) {
+    //     let r = Math.round(Math.random() * 10);
+    //     let imgToInsert = imgsPc[r];
+    
+    //     if (r > 2) {
+    //         continue
+    //     } else {
+    //         console.log(imgToInsert);
+    //         console.log(divForImgs);
             
-            // imgToInsert.style.display = `block`;
-            divForImgs.append(imgToInsert);
-            break
-        }
-    }
+    //         imgsPc[r].style.display = `block`;
+    //         if (r == 0) {
+    //             imgsPc[1].style.display = `none`;
+    //             imgsPc[2].style.display = `none`;
+    //         } else if (r == 1) {
+    //             imgsPc[0].style.display = `none`;
+    //             imgsPc[2].style.display = `none`;
+    //         } else {
+    //             imgsPc[0].style.display = `none`;
+    //             imgsPc[1].style.display = `none`;
+    //         }
+    //         // imgToInsert.style.display = `block`;
+    //         divForImgs.append(imgToInsert);
+    //         break
+    //     }
+    // }
 })
 
 

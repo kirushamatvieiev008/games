@@ -304,6 +304,7 @@ ul {
     margin: 0 auto;
     display: none;
     padding-bottom: 36px;
+    max-width: 100%;
 }
 
 .rockpc {
@@ -323,6 +324,14 @@ ul {
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
+}
+
+.for_imgsPc {
+    margin:  0 auto;
+    width: 200px;
+    /* height: 200px; */
+    /* position: absolute; */
+    /* background-color: #039900; */
 }
 
 .pc {
