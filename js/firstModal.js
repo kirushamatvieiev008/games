@@ -11,7 +11,7 @@ const leapForm = document.querySelector(`.form_vysokosnyi`);
 
 
 close.addEventListener(`click`, (e) => {
-
+    // e.preventDefault()
     console.log(nameInp.value);
     
     backdropElement.classList.add(`hidden`)
@@ -21,16 +21,16 @@ close.addEventListener(`click`, (e) => {
 })
 
 formModal1.addEventListener(`submit`, (e) => {
-    e.preventDefault()
-    const inputValue = e.target.elements.username.value
+    e.preventDefault();
+    const inputValue = e.target.elements.username.value;
     console.log(inputValue);
     user.textContent = inputValue;
     
     if (inputValue === ``) {
-        modalError.classList.add(`show`)
+        modalError.classList.add(`show`);
     } else {
         
-        backdropElement.classList.add(`hidden`)
+        backdropElement.classList.add(`hidden`);
     }
 })
 

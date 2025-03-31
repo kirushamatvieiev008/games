@@ -264,6 +264,7 @@ ul {
     background-color: rgba(255, 222, 173, 0);
     border: none;
     cursor: pointer;
+    /* opacity: 0.1; */
     /* border-radius: 20px; */
 }
 
@@ -305,6 +306,7 @@ ul {
     display: none;
     padding-bottom: 36px;
     max-width: 100%;
+    
 }
 
 .rockpc {
@@ -385,6 +387,26 @@ ul {
     /* text-align: center; */
     /* display: flex; */
     /* justify-content: center; */
+}
+
+.game3 {
+    position: relative;
+}
+
+.change_your_choise {
+    /* margin-top: 100px; */
+    position: absolute;
+    top: 150px;
+    right: 180px;
+    background-color: #000;
+    border-radius: 20px;
+    height: 35px;
+    font-size: 14px;
+    color: white;
+    padding: 0 15px;
+    border: none;
+    cursor: pointer;
+    
 }
 
 .enter_num {
