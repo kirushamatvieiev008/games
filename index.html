@@ -128,7 +128,7 @@
             </div>
 
             <div class="you_won">Ви виграли раунд!</div>
-            <button  type="button" class="computer_choise" disabled>
+            <button type="button" class="computer_choise" disabled>
               Варіант комп’ютера
             </button>
             <img class="choise" src="./imgs/png/rock.png" alt="#" />
@@ -141,39 +141,34 @@
 
           <section class="game4">
             <h6 class="check_year">Калькулятор</h6>
-            <ul class="flex_section_4">
-              <li>
-                <form action="#">
-                  <input
-                    class="enter_num"
-                    type="text"
-                    placeholder="Введіть число"
-                  />
-                </form>
-              </li>
-              <li>
+            <div class="flex_section_4">
+              <form class="formSection4" id="form1" action="#">
+                <input
+                  name="value1"
+                  class="enter_num"
+                  type="number"
+                  placeholder="Введіть число"
+                />
+
                 <ul class="action_culc">
-                  <li><button class="plus">+</button></li>
-                  <li><button class="mnozhenya">*</button></li>
+                  <li><button type="button" class="plus calc">+</button></li>
+                  <li><button type="button" class="mnozhenya calc">*</button></li>
                   <br />
-                  <li><button class="minus">-</button></li>
-                  <li><button class="slash">/</button></li>
+                  <li><button type="button" class="minus calc">-</button></li>
+                  <li><button type="button" class="slash calc">/</button></li>
                 </ul>
-              </li>
-              <li>
-                <form action="#">
-                  <input
-                    class="enter_num"
-                    type="text"
-                    placeholder="Введіть число"
-                  />
-                </form>
-              </li>
-              <li>
-                <button class="equivalent">=</button>
-              </li>
-              <li><div class="result">Результат</div></li>
-            </ul>
+
+                <input
+                name="value2"
+                  class="enter_num enter_num2"
+                  type="number"
+                  placeholder="Введіть число"
+                />
+
+                <button type="submit" class="equivalent">=</button>
+              </form>
+              <div class="result">Результат</div>
+            </div>
           </section>
 
           <div class="line"></div>
@@ -475,5 +470,6 @@
     <script type="module" src="./main.js"></script>
     <script type="module" src="./js/guesnum.js"></script>
     <script type="module" src="./js/game3.js"></script>
+    <script type="module" src="./js/game4.js"></script>
   </body>
 </html>

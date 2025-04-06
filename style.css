@@ -393,6 +393,12 @@ ul {
     position: relative;
 }
 
+.formSection4 {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
 .change_your_choise {
     /* margin-top: 100px; */
     position: absolute;
