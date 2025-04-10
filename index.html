@@ -153,7 +153,7 @@
                 <ul class="action_culc">
                   <li><button type="button" class="plus calc">+</button></li>
                   <li><button type="button" class="mnozhenya calc">*</button></li>
-                  <br />
+                  
                   <li><button type="button" class="minus calc">-</button></li>
                   <li><button type="button" class="slash calc">/</button></li>
                 </ul>
@@ -165,7 +165,7 @@
                   placeholder="Введіть число"
                 />
 
-                <button type="button" class="equivalent">=</button>
+                <button type="submit" class="equivalent">=</button>
               </form>
               <div class="result">Результат</div>
             </div>
@@ -231,38 +231,56 @@
           <section>
             <h6 class="check_year">Введіть 3 числа</h6>
 
-            <ul class="three_numbers">
-              <li>
-                <form action="#">
-                  <input
-                    class="enter_num"
-                    type="text"
-                    placeholder="Введіть число"
-                  />
-                </form>
-              </li>
-              <li>
-                <form action="#">
-                  <input
-                    class="enter_num"
-                    type="text"
-                    placeholder="Введіть число"
-                  />
-                </form>
-              </li>
-              <li>
-                <form action="#">
-                  <input
-                    class="enter_num"
-                    type="text"
-                    placeholder="Введіть число"
-                  />
-                </form>
-              </li>
-            </ul>
+            
+            
+            
+            <form class="three_numbers" action="#">
+              <input name="num1" class="enter_num enter_numGameNums" placeholder="Введіть число" type="number">
+              <input name="num2" class="enter_num enter_numGameNums" placeholder="Введіть число" type="number">
+              <input name="num3" class="enter_num enter_numGameNums" placeholder="Введіть число" type="number">
+              <button class="check_numbers " type="submit">Перевірити</button>
+            </form>
+            
             <div class="the_biggest_num">
-              Найбільше число, яке ви ввели - (число)
+              Найбільше число, яке ви ввели - <span class="the_biggest_num_of_nums">(число)</span> 
             </div>
+            
+            
+            
+            
+            <!-- <ul class="three_numbers">
+              <li>
+                <form action="#">
+                  <input
+                    class="enter_num"
+                    type="text"
+                    placeholder="Введіть число"
+                  />
+                </form>
+              </li>
+              <li>
+                <form action="#">
+                  <input
+                    class="enter_num"
+                    type="text"
+                    placeholder="Введіть число"
+                  />
+                </form>
+              </li>
+              <li>
+                <form action="#">
+                  <input
+                    class="enter_num"
+                    type="text"
+                    placeholder="Введіть число"
+                  />
+                </form>
+              </li>
+            </ul> -->
+
+
+
+
           </section>
 
           <div class="line"></div>
@@ -471,5 +489,6 @@
     <script type="module" src="./js/guesnum.js"></script>
     <script type="module" src="./js/game3.js"></script>
     <script type="module" src="./js/game4.js"></script>
+    <script type="module" src="./js/gameThreeNum.js"></script>
   </body>
 </html>
