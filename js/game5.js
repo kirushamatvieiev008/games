@@ -1,23 +1,17 @@
 const formCulcTime = document.querySelector(`.form_game5`);
+const answer = document.querySelector(`.answer`);
+
 
 formCulcTime.addEventListener(`submit`, (e) => {
     e.preventDefault();
-    const minutes = e.currentTarget.elements.enterMinutes.value;
-    for (let i = 0; i < Number(minutes); i++) {
-        let hours = 0;
-        let days = 0;
-        if (hours === 24) {
-            days + 1;
-        } else {
-            
-        }
-        if (Number(minutes) > 60) {
-            Number(minutes) - 60;
-            hours + 1;
-        } else {
-            console.log(days, hours, minutes);
-            
-            break
-        }
-    }
-});
+    const minutesText = e.currentTarget.elements.enterMinutes.value;
+    const minutes = Number(minutesText);
+    let hours = Math.floor(minutes / 60);
+    let minutesLessSixty = minutes - (hours * 60);
+    let days = Math.floor(hours / 24);
+    let hoursLessTwentyFour = hours - (days * 24);
+    console.log(days, hoursLessTwentyFour, minutesLessSixty);
+    
+    answer.textContent = `days: ${days}, hours: ${hoursLessTwentyFour}, minutes: ${minutesLessSixty}`;
+    e.target.elements.enterMinutes.value = ``;
+})

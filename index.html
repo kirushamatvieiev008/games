@@ -152,14 +152,16 @@
 
                 <ul class="action_culc">
                   <li><button type="button" class="plus calc">+</button></li>
-                  <li><button type="button" class="mnozhenya calc">*</button></li>
-                  
+                  <li>
+                    <button type="button" class="mnozhenya calc">*</button>
+                  </li>
+
                   <li><button type="button" class="minus calc">-</button></li>
                   <li><button type="button" class="slash calc">/</button></li>
                 </ul>
 
                 <input
-                name="value2"
+                  name="value2"
                   class="enter_num enter_num2 num2"
                   type="number"
                   placeholder="Введіть число"
@@ -179,7 +181,8 @@
             <ul class="ul_section_5">
               <li>
                 <form class="form_game5" action="#">
-                  <input name="enterMinutes"
+                  <input
+                    name="enterMinutes"
                     class="inp_guess_num"
                     type="text"
                     placeholder="Введіть хвилини"
@@ -231,23 +234,33 @@
           <section>
             <h6 class="check_year">Введіть 3 числа</h6>
 
-            
-            
-            
             <form class="three_numbers" action="#">
-              <input name="num1" class="enter_num enter_numGameNums" placeholder="Введіть число" type="number">
-              <input name="num2" class="enter_num enter_numGameNums" placeholder="Введіть число" type="number">
-              <input name="num3" class="enter_num enter_numGameNums" placeholder="Введіть число" type="number">
-              <button class="check_numbers " type="submit">Перевірити</button>
+              <input
+                name="num1"
+                class="enter_num enter_numGameNums"
+                placeholder="Введіть число"
+                type="number"
+              />
+              <input
+                name="num2"
+                class="enter_num enter_numGameNums"
+                placeholder="Введіть число"
+                type="number"
+              />
+              <input
+                name="num3"
+                class="enter_num enter_numGameNums"
+                placeholder="Введіть число"
+                type="number"
+              />
+              <button class="check_numbers" type="submit">Перевірити</button>
             </form>
-            
+
             <div class="the_biggest_num">
-              Найбільше число, яке ви ввели - <span class="the_biggest_num_of_nums">(число)</span> 
+              Найбільше число, яке ви ввели -
+              <span class="the_biggest_num_of_nums">(число)</span>
             </div>
-            
-            
-            
-            
+
             <!-- <ul class="three_numbers">
               <li>
                 <form action="#">
@@ -277,26 +290,59 @@
                 </form>
               </li>
             </ul> -->
-
-
-
-
           </section>
 
           <div class="line"></div>
 
           <section class="info_team">
             <h6 class="check_year">Розробник</h6>
-            <div class="info_student">
-              <img
-                class="kiril_foto"
-                src="imgs/jpg/kiril_official.jpg"
-                alt="#"
-              />
-              <span class="name">Kiril</span>
-              <p class="info_text">
-                Інформація про роботу, яку він/вона виконав/ла
-              </p>
+            <div class="students">
+              <button class="slide_button_left">
+                <img src="imgs/svg/slideImgLeft.svg" alt="#" />
+              </button>
+              <div class="info_student inf1 student">
+                <img
+                  class="kiril_foto"
+                  src="imgs/jpg/kiril_official.jpg"
+                  alt="#"
+                />
+                <span class="name">Kiril</span>
+                <p class="info_text">
+                  Інформація про роботу, яку він/вона виконав/ла
+                </p>
+              </div>
+
+              <div class="inf2 student">
+                <img
+                  class="kiril_foto"
+                  src="imgs/jpg/kiril2.jpg"
+                  alt="#"
+                />
+                <span class="name">Kiril</span>
+                <p class="info_text">
+                  Інформація про роботу, яку він/вона виконав/ла
+                </p>
+              </div>
+
+              <div class="inf3 student">
+                <img
+                  class="kiril_foto"
+                  src="imgs/jpg/kiril3.jpg"
+                  alt="#"
+                />
+                <span class="name">Kiril</span>
+                <p class="info_text">
+                  Інформація про роботу, яку він/вона виконав/ла
+                </p>
+              </div>
+              <button class="slide_button_right" type="button">
+                <img src="imgs/svg/slideImgRight.svg" alt="#" />
+              </button>
+            </div>
+            <div class="pages_helper">
+              <span class="line1"></span>
+              <span class="line2"></span>
+              <span class="line3"></span>
             </div>
           </section>
 
@@ -491,5 +537,6 @@
     <script type="module" src="./js/game4.js"></script>
     <script type="module" src="./js/gameThreeNum.js"></script>
     <script type="module" src="./js/game5.js"></script>
+    <script type="module" src="./js/slider.js"></script>
   </body>
 </html>
