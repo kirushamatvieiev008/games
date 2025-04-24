@@ -703,6 +703,10 @@ ul {
     border-bottom-right-radius: 20px; */
 }
 
+.kiril_foto_lust {
+    object-fit: cover;
+}
+
 .info_student {
     text-align: center;
     display: flex;
@@ -737,19 +741,35 @@ div {
     height: 100px;
     background-color: #D9D9D9;
     border-radius: 20px;
+    text-align: center;
+    /* font-size: 12px; */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hs {
+    margin: 0;
 }
 
 .ul_with_scientists {
-    display: flex;
-    /* text-align: center; */
+    width: 500px;
+
+    /* display: flex;
     width: 577px;
     margin: 0 auto;
     justify-content: center;
     flex-wrap: wrap;
-    /* gap: 80px; */
     row-gap: 36px;
     column-gap: 59px;
-    padding-bottom: 36px;
+    padding-bottom: 36px; */
+    /* gap: 80px; */
+    /* text-align: center; */
 
 }
 
@@ -1212,6 +1232,10 @@ footer {
 
 .errorFooter {
     color: red;
+}
+
+button {
+    cursor: pointer;
 }
 
 /* 
