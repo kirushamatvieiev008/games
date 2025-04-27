@@ -755,10 +755,32 @@ div {
 
 .hs {
     margin: 0;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.pJs {
+    display: inline;
+    font-size: 14px;
+}
+
+p {
+    margin: 0;
 }
 
 .ul_with_scientists {
-    width: 500px;
+    /* width: 500px; */
+    display: flex;
+    width: 577px;
+    gap: 59px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-bottom: 36px;
+    /* gap: 50px; */
 
     /* display: flex;
     width: 577px;

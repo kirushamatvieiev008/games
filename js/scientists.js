@@ -1,4 +1,5 @@
 const ulScientists = document.querySelector(`.ul_with_scientists`);
+const nineteenScentery = document.querySelector(`.who_was_born`);
 
 const scientists = [
   {
@@ -99,16 +100,21 @@ const scientists = [
 ];
 
 const markup = scientists.map((scientist) => {
-    
-  const item = `<li class="fake_img">
+  const item =
+   `<li class="">
+                <div class="fake_img">
                 <h3 class="hs">${scientist.name} ${scientist.surname}</h3>
-                <p>${scientist.born}</p>
-                <p>${scientist.dead}</p>
-              </li>`;
-    return item;
+                <p class="pJs">Born: ${scientist.born}</p>
+                <p class="pJs">Died: ${scientist.dead}</p>
+                </div>
+              </li>`
+    ;
+  return item;
 });
 
-const list = markup.join();
+const list = markup.join('');
 // console.log(list);
 
 ulScientists.innerHTML = list;
+
+
