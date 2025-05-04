@@ -8,7 +8,9 @@ peach.addEventListener(`click`, (e) => {
     x = e.pageX;
     y = e.pageY;
     console.log(x, y);
+    console.dir(e.target);
     
-    ball.style.top = `${y - 1650}px`;
-    ball.style.left = `${x - 185}px`
+    
+    ball.style.top = `${y - 34}px`;
+    ball.style.left = `${x}px`
 })

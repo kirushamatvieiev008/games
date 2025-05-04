@@ -670,16 +670,17 @@ ul {
     height: 220px;
     margin: 0 auto;
     margin-bottom: 36px;
-    position: relative;
+    /* position: relative; */
     /* border-radius: 20px; */
 }
 
 .ball_div {
     /* margin-top: -188px;
     margin-bottom: 188px; */
-    top: 50%;
+    /* top: 50%; */
+    top: 1720px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
     position: absolute;
 }
 
